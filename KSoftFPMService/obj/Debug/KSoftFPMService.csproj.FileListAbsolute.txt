@@ -1,0 +1,9 @@
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Debug\KSoftFPMService.exe
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Debug\KSoftFPMService.pdb
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.csprojResolveAssemblyReference.cache
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.exe
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.pdb
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.FPMService.resources
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.ProjectInstaller.resources
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Debug\KSoftFPMService.csproj.GenerateResource.Cache
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Debug\KSoftFPMService.exe.config

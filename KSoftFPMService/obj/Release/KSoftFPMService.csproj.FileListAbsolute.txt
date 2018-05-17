@@ -1,0 +1,34 @@
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.pdb
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.FPMService.resources
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.ProjectInstaller.resources
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.csproj.GenerateResource.Cache
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.exe
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.pdb
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe.config
+D:\add work\KSoft FPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.csprojResolveAssemblyReference.cache
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe.config
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.pdb
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\MySql.Data.dll
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\MySql.Web.dll
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\Riss.Devices.dll
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\MySql.Web.xml
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.FPMService.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.ProjectInstaller.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.AccessControlForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.ACForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.AlarmForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.AttForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.CMForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.EnrollDetailForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.EnrollForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.GLogForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.NameDataSettingForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.RealTimeLogForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.SLogForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.UI.SystemSettingForm.resources
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.csproj.GenerateResource.Cache
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.exe
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.pdb
+D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\obj\Release\KSoftFPMService.csprojResolveAssemblyReference.cache

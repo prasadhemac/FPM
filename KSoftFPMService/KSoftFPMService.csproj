@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB1A329C-81B9-4C4D-BD2A-93544F5304BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KSoftFPMService</RootNamespace>
+    <AssemblyName>KSoftFPMService</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>KSoftFPMService.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 5.0.9\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Riss.Devices">
+      <HintPath>..\..\..\NO.1  SDK for Fingerprint Models (2911) (1)\RL10079DesktopDemo\RL10079DesktopDemo_Attendance_AccessControl_C#\bin\Release\Riss.Devices.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\InitData.cs" />
+    <Compile Include="Entity\DeviceCommEty.cs" />
+    <Compile Include="Entity\Engine.cs" />
+    <Compile Include="Entity\FPDevice.cs" />
+    <Compile Include="Entity\Logger.cs" />
+    <Compile Include="Entity\Util.cs" />
+    <Compile Include="FPMService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FPMService.Designer.cs">
+      <DependentUpon>FPMService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="IConvert\ConvertObject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SysEnum\UserPrivilege.cs" />
+    <Compile Include="UI\AccessControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AccessControlForm.Designer.cs" />
+    <Compile Include="UI\ACForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ACForm.Designer.cs" />
+    <Compile Include="UI\AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AlarmForm.Designer.cs" />
+    <Compile Include="UI\AttForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AttForm.Designer.cs" />
+    <Compile Include="UI\CMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CMForm.Designer.cs" />
+    <Compile Include="UI\EnrollDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EnrollDetailForm.Designer.cs" />
+    <Compile Include="UI\EnrollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EnrollForm.Designer.cs" />
+    <Compile Include="UI\GLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GLogForm.Designer.cs" />
+    <Compile Include="UI\NameDataSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NameDataSettingForm.Designer.cs" />
+    <Compile Include="UI\RealTimeLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RealTimeLogForm.Designer.cs" />
+    <Compile Include="UI\SLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SLogForm.Designer.cs" />
+    <Compile Include="UI\SystemSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SystemSettingForm.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FPMService.resx">
+      <DependentUpon>FPMService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AccessControlForm.resx" />
+    <EmbeddedResource Include="UI\ACForm.resx" />
+    <EmbeddedResource Include="UI\AlarmForm.resx" />
+    <EmbeddedResource Include="UI\AttForm.resx" />
+    <EmbeddedResource Include="UI\CMForm.resx" />
+    <EmbeddedResource Include="UI\EnrollDetailForm.resx" />
+    <EmbeddedResource Include="UI\EnrollForm.resx" />
+    <EmbeddedResource Include="UI\GLogForm.resx" />
+    <EmbeddedResource Include="UI\NameDataSettingForm.resx" />
+    <EmbeddedResource Include="UI\RealTimeLogForm.resx" />
+    <EmbeddedResource Include="UI\SLogForm.resx" />
+    <EmbeddedResource Include="UI\SystemSettingForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

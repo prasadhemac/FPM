@@ -1,0 +1,89 @@
+﻿Installing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing service FPMService...
+Service FPMService has been successfully installed.
+Creating EventLog source FPMService in log Application...
+Committing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing service FPMService...
+Creating EventLog source FPMService in log Application...
+Rolling back assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Restoring event log to previous state for source FPMService.
+Uninstalling assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Removing EventLog source FPMService.
+Service FPMService is being removed from the system...
+Service FPMService was successfully removed from the system.
+Installing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing service FPMService...
+Service FPMService has been successfully installed.
+Creating EventLog source FPMService in log Application...
+Committing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Uninstalling assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Removing EventLog source FPMService.
+Service FPMService is being removed from the system...
+Service FPMService was successfully removed from the system.
+Installing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing service FPMService...
+Service FPMService has been successfully installed.
+Creating EventLog source FPMService in log Application...
+Committing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Uninstalling assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Removing EventLog source FPMService.
+Service FPMService is being removed from the system...
+Service FPMService was successfully removed from the system.
+Installing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
+Installing service FPMService...
+Service FPMService has been successfully installed.
+Creating EventLog source FPMService in log Application...
+Committing assembly 'D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.InstallLog
+   assemblypath = D:\add_work\KSoftFPM\KSoftFPMService\KSoftFPMService\bin\Release\KSoftFPMService.exe
